@@ -105,8 +105,9 @@ Customers Age Group = COUNT('Customers'[Customer_ID])
 
 ---
 
- 📸 Dashboard
+## 📸 Dashboard Preview
 
+![Dashboard](images/UK_bank.png)
 
 ---
 
