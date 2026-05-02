@@ -2,9 +2,6 @@
 
 ---
 
-# 🔷 🏦 PROJECT 3 — BANK ANALYSIS (UPGRADED)
-
-
 # 🏦 UK Bank Customer Analysis
 
 > ⚠️ Simulated dataset.
