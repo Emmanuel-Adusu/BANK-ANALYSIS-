@@ -144,7 +144,7 @@ The Power BI dashboard includes:
 
 ## 📸 Dashboard Preview
 
-<p align="center"> <img src="images/uk_bank.png" width="48%" /> <img src="images/dashboard_1b.png" width="48%" /> </p> <p align="center"><em>Figure: Customer Demographics & Financial Distribution Dashboard</em></p>
+<p align="center"> <img src="images/UK_bank.png" width="48%" /> <img src="images/UK_bank.png" width="48%" /> </p> <p align="center"><em>Figure: Customer Demographics & Financial Distribution Dashboard</em></p>
 
 ---
 
