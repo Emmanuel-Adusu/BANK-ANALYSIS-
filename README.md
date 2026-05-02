@@ -64,20 +64,20 @@ SELECT COUNT(*) AS total_customers
 FROM customers;
 ````
 
-### Average Balance
+### 📌 Average Balance
 ```sql
 SELECT AVG(Balance) AS avg_balance
 FROM customers;
 ````
 
-### Customers by gender
+### 📌 Customers by gender
 ```sql
 SELECT Gender, COUNT(*) AS total
 FROM customers
 GROUP BY Gender;
 ````
 
-### Customers by occupation
+### 📌 Customers by occupation
 ```sql
 SELECT Occupation, COUNT(*) AS total
 FROM customers
@@ -85,7 +85,7 @@ GROUP BY Occupation
 ORDER BY total DESC;
 ````
 
-### Age segmentation
+### 📌 Age segmentation
 ```sql
 SELECT 
     CASE 
@@ -102,12 +102,12 @@ GROUP BY age_group;
 ## 📊 DAX Measures (Power BI Layer)
 
 DAX was used to build dynamic KPIs.
-### Total Customers
+### 📌 Total Customers
 ```DAX
 Total Customers = COUNT('Customers'[Customer_ID])
 ````
 
-### Average Balance
+### 📌 Average Balance
 ```DAX
 Avg Balance = AVERAGE('Customers'[Balance])
 ````
@@ -123,7 +123,7 @@ SWITCH(
 )
 ````
 
-### Customers by Age Group
+### 📌 Customers by Age Group
 ```DAX
 Customers Age Group = COUNT('Customers'[Customer_ID])
 ````
